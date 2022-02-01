@@ -1,0 +1,6 @@
+applications:
+  - name: ortho-ai
+    memory: 512M
+    command: node app.js
+    buildpacks:
+      - https://github.com/cloudfoundry/nodejs-buildpack.git
